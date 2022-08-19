@@ -29,7 +29,6 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 5vw;
 }
@@ -64,42 +63,37 @@ section{
     color: black;
 }
 
-.paragrafo-imagem01{
+.paragrafo-imagem{
     background-color: rgba(0, 0, 0, 0.142);
     color: white;
     padding-left: 0;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.327);
+    background-attachment: fixed;
+}
 
+.paragrafo-imagem > p{
+    background-color: rgba(0, 0, 0, 0.386);
+    display: inline-block;
+    padding: 15px;
+    padding-left: 30px;
+    text-shadow: 3px 2px 2px black;
+}
+
+#img001{
     background-image: url("../imagens/background001.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
+    background-position: right center;
+    background-size: cover; 
 }
 
-.paragrafo-imagem01 > p{
-    background-color: rgba(0, 0, 0, 0.386);
-    display: inline-block;
-    padding: 15px;
-    padding-left: 30px;
-}
-
-.paragrafo-imagem02{
-    background-color: rgba(0, 0, 0, 0.142);
-    color: white;
-    padding-left: 0;
-
+#img002{
     background-image: url("../imagens/background002.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
 }
 
-.paragrafo-imagem02 > p{
-    background-color: rgba(0, 0, 0, 0.386);
-    display: inline-block;
-    padding: 15px;
-    padding-left: 30px;
-}
+
 
 footer{
     background-color: black;
